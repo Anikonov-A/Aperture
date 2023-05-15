@@ -175,3 +175,6 @@ header .container {
 .for_git{
     background-color: #181818;
 }
+.for_git .container{
+    margin: auto;
+}
