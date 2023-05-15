@@ -70,7 +70,7 @@ header .container {
 
 .main__banner {
     height: calc(100vh - 82px);
-    background-image: url("/img/image.jpg");
+    background-image: url("../img/image.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
