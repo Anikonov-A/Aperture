@@ -1,11 +1,24 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.eot');
+    src: url('../fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-regular-webfont.woff') format('woff'),
+    url('../fonts/poppins-regular-webfont.ttf') format('truetype'),
+    url('../fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 .body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'poppinsregular', sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -37,9 +50,6 @@ header .container {
 
 .header__menu li a {
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 13px;
     line-height: 20px;
     color: #FFFFFF;
@@ -55,9 +65,6 @@ header .container {
 }
 
 .header__menu li:last-of-type a {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.4px;
@@ -84,9 +91,6 @@ header .container {
 }
 
 .main__banner h3 {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
@@ -96,9 +100,6 @@ header .container {
 }
 
 .main__banner h1 {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 54px;
     line-height: 59px;
     margin-bottom: 18px;
@@ -106,9 +107,6 @@ header .container {
 }
 
 .main__banner p {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
@@ -126,9 +124,7 @@ header .container {
 }
 
 .help__with h2 {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 40px;
     line-height: 42px;
     color: #FFFFFF;
@@ -136,9 +132,7 @@ header .container {
 }
 
 .help__with h3 {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 24px;
     line-height: 30px;
     color: #C0C0C0;
@@ -146,9 +140,6 @@ header .container {
 }
 
 .help__with a {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.4px;
@@ -172,15 +163,35 @@ header .container {
     margin-right: 5px;
 
 }
-.for_git{
-    background-color: #181818;
+.info_block{
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
-.for_git .container{
-    margin: auto;
-    max-width: 700px;
-    text-align: center;
+.info_block p{
+    max-width: 298px;
+    margin-right: 62px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
 }
-.for_git .h3{
-    font-size: 20px;
-    color: aqua;
+.info_block h4{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.fuji{
+    background-image: url("../img/fuji.jpg");
+    background-size: cover;
+}
+.leaves{
+    background-image: url("../img/leaves.jpg");
+    background-size: cover;
+}
+.starfall{
+    background-image: url("../img/starfall.jpg");
+    background-size: cover;
 }
