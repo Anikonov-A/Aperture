@@ -82,6 +82,7 @@ header .container {
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 71px;
+    position: relative;
 }
 
 .main__container {
@@ -138,7 +139,7 @@ header .container {
     margin-bottom: 31px;
 }
 
-.help__with a {
+.help__with a, .description a {
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.4px;
@@ -152,7 +153,7 @@ header .container {
 
 }
 
-.help__with a:before {
+.help__with a:before, .description a:before {
     content: "";
     display: inline-block;
     width: 32px;
@@ -162,35 +163,181 @@ header .container {
     margin-right: 5px;
 
 }
-.info_block{
+
+.info_block {
     min-height: 600px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
-.info_block p{
+
+.info_block p {
     max-width: 298px;
     margin-right: 62px;
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
 }
-.info_block h4{
+
+.info_block h4 {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.fuji{
+
+.fuji {
     background-image: url("../img/fuji.jpg");
     background-size: cover;
 }
-.leaves{
+
+.leaves {
     background-image: url("../img/leaves.jpg");
     background-size: cover;
 }
-.starfall{
+
+.starfall {
     background-image: url("../img/starfall.jpg");
     background-size: cover;
 }
+
+.widget_right_bottom {
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+}
+
+.widget_right_bottom li {
+    font-family: 'poppinsregular', sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+
+}
+
+.widget_right_bottom li:before {
+    content: "";
+    display: inline-block;
+    background-image: url("../img/pins/Combined-Shape.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -7px;
+}
+
+.widget_right_bottom li:nth-child(2):before {
+    background-image: url("../img/pins/Combined-Shape2.svg");
+}
+
+.widget_right_bottom li:nth-child(3):before {
+    background-image: url("../img/pins/Combined-Shape3.svg");
+    width: 32px;
+    margin-right: 7px;
+}
+
+.widget_right_bottom li:nth-child(4):before {
+    background-image: url("../img/pins/Combined-Shape4.svg");
+    width: 10px;
+    margin-right: 5px;
+}
+
+.specialized_carts {
+    background-color: #000000;
+    padding: 113px 0 84px;
+}
+
+.specialized_carts h2 {
+    font-family: 'poppinsregular', sans-serif;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.specialized_carts h4 {
+    font-family: 'poppinsregular', sans-serif;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+
+.specialized_carts .container {
+    max-width: 1168px;
+    margin: auto;
+}
+
+.specialized_carts .article_group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.specialized_carts article {
+    max-width: 576px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.specialized_carts article img {
+    display: block;
+    width: 100%;
+}
+
+.article_group .description {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+}
+
+.description h5 {
+    font-family: 'poppinsregular', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-family: 'poppinsregular', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 18px;
+}
+
+/*
+.description a {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    text-decoration: none;
+    padding: 5px 10px 5px 5px;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.description a:before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-right: 5px;
+
+}*/
