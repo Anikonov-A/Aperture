@@ -315,3 +315,33 @@ header .container {
     color: #C0C0C0;
     margin-bottom: 18px;
 }
+.about_clients{
+    background-color: #000000;
+}
+.about_clients .container{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 113px 0 140px;
+}
+.about_clients h3{
+    font-family: 'poppinsregular', sans-serif;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.about_clients h5{
+    font-family: 'poppinsregular', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 82px;
+}
+.companies_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
