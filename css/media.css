@@ -66,6 +66,9 @@
 }
 
 @media only screen and (max-width: 320px) {
+    .main__banner{
+        height:100vh;
+    }
     .header__menu li:last-of-type a {
         padding: 5px 5px;
         border-radius: 10px;
