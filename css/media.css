@@ -1,0 +1,77 @@
+@media only screen and (max-width: 768px) {
+    .header__menu li {
+        margin-left: 12px;
+    }
+
+    .specialized_carts .article_group {
+        justify-content: center;
+    }
+
+    .companies_list {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    .header__menu {
+        display: block;
+    }
+
+    .header__menu li {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+
+    .header__menu li:first-of-type {
+        margin-right: 0;
+    }
+
+    .about_clients .container {
+        padding: 50px 0;
+    }
+
+    .companies_list {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .main__banner p {
+        padding: 0 10px;
+    }
+
+    .specialized_carts {
+        padding: 55px 0 42px;
+    }
+
+    .info_block p, h4 {
+        text-align: center;
+        max-width: 360px;
+        margin: auto;
+        padding: 0 15px;
+    }
+
+    .companies_list {
+        flex-direction: column;
+    }
+
+    .companies_list li {
+        margin-bottom: 20px;
+    }
+
+    .companies_list li:nth-child(2) {
+        order: -1;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .header__menu li:last-of-type a {
+        padding: 5px 5px;
+        border-radius: 10px;
+    }
+
+    .widget_right_bottom {
+        display: none;
+    }
+}

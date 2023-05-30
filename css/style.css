@@ -102,7 +102,7 @@ header .container {
 .main__banner h1 {
     font-size: 54px;
     line-height: 59px;
-    margin-bottom: 18px;
+    margin: 0 0 18px 0;
     color: #FFFFFF;
 }
 
