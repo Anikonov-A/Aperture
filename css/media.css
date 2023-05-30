@@ -1,3 +1,36 @@
+@media only screen and (max-width: 1114px){
+    .specialized_carts .article_group {
+        justify-content: center;
+    }
+
+    }
+    .companies_list {
+        justify-content: space-around;
+    }
+
+
+
+@media only screen and (max-width: 884px){
+    .specialized_carts .article_group {
+        justify-content: center;
+    }
+    .companies_list {
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 830px) {
+    .header__menu li {
+        margin-left: 12px;
+    }
+    .specialized_carts .article_group {
+        justify-content: center;
+
+    }
+    .companies_list {
+        justify-content: space-around;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .header__menu li {
         margin-left: 12px;
@@ -11,7 +44,6 @@
         justify-content: space-around;
     }
 }
-
 @media only screen and (max-width: 428px) {
     .header__menu {
         display: block;
@@ -33,6 +65,34 @@
 
     .companies_list {
         flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .main__banner p {
+        padding: 0 10px;
+    }
+
+    .specialized_carts {
+        padding: 55px 0 42px;
+    }
+
+    .info_block p, h4 {
+        text-align: center;
+        max-width: 360px;
+        margin: auto;
+        padding: 0 15px;
+    }
+
+    .companies_list {
+        flex-direction: column;
+    }
+
+    .companies_list li {
+        margin-bottom: 20px;
+    }
+
+    .companies_list li:nth-child(2) {
+        order: -1;
     }
 }
 
