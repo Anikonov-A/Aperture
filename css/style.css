@@ -345,3 +345,32 @@ header .container {
     justify-content: space-between;
     align-items: center;
 }
+.about_clients .companies_list a{
+    max-width: 128px;
+    display: inline-block;
+}
+.companies_list .owl-item {
+    text-align: center;
+}
+.companies_list .owl-stage{
+    display: flex;
+    align-items: center;
+}
+.about_clients .container .companies_list .owl-nav .owl-prev{
+    background-color: #869791;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -20px;
+    top: 30px;
+
+}
+.about_clients .container .companies_list .owl-nav .owl-next{
+    background-color: #869791;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -20px;
+    top: 30px;
+
+}
