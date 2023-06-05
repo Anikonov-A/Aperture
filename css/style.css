@@ -139,7 +139,7 @@ header .container {
     margin-bottom: 31px;
 }
 
-.btn{
+.btn {
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.4px;
@@ -315,16 +315,19 @@ header .container {
     color: #C0C0C0;
     margin-bottom: 18px;
 }
-.about_clients{
+
+.about_clients {
     background-color: #000000;
 }
-.about_clients .container{
+
+.about_clients .container {
     max-width: 1200px;
     margin: auto;
     text-align: center;
     padding: 113px 0 140px;
 }
-.about_clients h3{
+
+.about_clients h3 {
     font-family: 'poppinsregular', sans-serif;
     font-size: 40px;
     line-height: 42px;
@@ -332,7 +335,8 @@ header .container {
     color: #FFFFFF;
     margin-bottom: 15px;
 }
-.about_clients h5{
+
+.about_clients h5 {
     font-family: 'poppinsregular', sans-serif;
     font-size: 24px;
     line-height: 30px;
@@ -340,23 +344,28 @@ header .container {
     color: #C0C0C0;
     margin-bottom: 82px;
 }
-.companies_list{
+
+.companies_list {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.about_clients .companies_list a{
+
+.about_clients .companies_list a {
     max-width: 128px;
     display: inline-block;
 }
+
 .companies_list .owl-item {
     text-align: center;
 }
-.companies_list .owl-stage{
+
+.companies_list .owl-stage {
     display: flex;
     align-items: center;
 }
-.about_clients .container .companies_list .owl-nav .owl-prev{
+
+.about_clients .container .companies_list .owl-nav .owl-prev {
     background-color: #869791;
     width: 20px;
     height: 20px;
@@ -365,7 +374,8 @@ header .container {
     top: 30px;
 
 }
-.about_clients .container .companies_list .owl-nav .owl-next{
+
+.about_clients .container .companies_list .owl-nav .owl-next {
     background-color: #869791;
     width: 20px;
     height: 20px;
@@ -373,4 +383,126 @@ header .container {
     right: -20px;
     top: 30px;
 
+}
+
+footer {
+    padding: 100px 0;
+    background-color: black;
+
+}
+
+footer .container {
+    max-width: 1168px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 36px;
+}
+
+footer .container:nth-child(2) {
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    padding: 36px 0;
+    margin-bottom: 36px;
+}
+
+footer .container:nth-child(2) .ft_right {
+    width: 100%;
+    max-width: 458px;
+}
+
+footer .logo {
+    margin-bottom: 20px;
+}
+
+footer .ft_left p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+footer .ft_right {
+    display: flex;
+
+}
+
+footer .ft_right ul {
+    list-style: none;
+}
+
+footer .ft_right ul:first-of-type {
+    margin-right: 55px;
+
+}
+
+footer .ft_right li {
+    margin-bottom: 10px;
+    font-family: 'poppinsregular', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+
+footer .ft_right li a {
+    text-decoration: none;
+    font-family: 'poppinsregular', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+footer .ft_left h3 {
+    font-family: 'poppinsregular', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+footer .ft_left h4 {
+    font-family: 'poppinsregular', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+footer .ft_right form {
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 6px;
+    width: 100%;
+}
+
+footer .ft_right form input {
+    width: 75%;
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+
+
+}
+
+footer .ft_right form button {
+    border: none;
+    background: #000000;
+    border-radius: 11px;
+    height: 30px;
+    width: 63px;
+
+}
+
+footer .ft_icon {
+    margin-left: 20px;
 }
