@@ -407,7 +407,7 @@ footer .container:nth-child(2) {
     margin-bottom: 36px;
 }
 
-footer .container:nth-child(2) .ft_right {
+footer .container:nth-of-type(2) .ft_right {
     width: 100%;
     max-width: 458px;
 }
