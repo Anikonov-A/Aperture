@@ -386,7 +386,7 @@ header .container {
 }
 
 footer {
-    padding: 100px 0;
+    padding: 100px 0 0;
     background-color: black;
 
 }
@@ -398,14 +398,20 @@ footer .container {
     justify-content: space-between;
     align-items: flex-start;
     padding-bottom: 36px;
-}
+    border-bottom: solid 2px white;
 
-footer .container:nth-child(2) {
-    border-top: solid 2px white;
+}
+.ui-accordion .ui-accordion-content{
+    overflow: hidden;
+}
+footer .container:last-of-type{
+    border-bottom: none;
+}
+/*footer .container:nth-of-type(2) {
     border-bottom: solid 2px white;
     padding: 36px 0;
     margin-bottom: 36px;
-}
+}*/
 
 footer .container:nth-of-type(2) .ft_right {
     width: 100%;
@@ -417,9 +423,7 @@ footer .logo {
 }
 
 footer .ft_left p {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'poppinsregular', sans-serif;
     font-size: 13px;
     line-height: 20px;
     color: #C0C0C0;
@@ -509,4 +513,44 @@ footer .ft_icon {
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover, .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active, .ui-widget-content{
     background-color: transparent;
     border: none;
+
+}
+.ui-accordion .ui-accordion-content{
+    padding: 0;
+}
+.ui-accordion .ui-accordion-header{
+    max-width: 1168px;
+    margin: auto;
+    text-align: center;
+}
+.ui-icon{
+    display: none;
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited{
+    color: black;
+    display: none;
+}
+.ui-state-active .close{
+    transition: 0.8s;
+    transform: rotate(225deg);
+    position: relative;
+    left: 1136px;
+}
+.close {
+    position: relative;
+    left: -50px;
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 5px;
+    background-color: #ffffff;
+}
+.close:after {
+    transform: rotate(-90deg);
 }
