@@ -38,16 +38,16 @@ header .container {
     align-items: center;
 }
 
-.header__menu {
+.nav__list {
     display: flex;
     align-items: center;
 }
 
-.header__menu li {
+.nav__list li {
     margin-left: 32px;
 }
 
-.header__menu li a {
+.nav__list li a {
     text-decoration: none;
     font-size: 13px;
     line-height: 20px;
@@ -55,15 +55,15 @@ header .container {
 
 }
 
-.header__menu li:first-of-type {
+.nav__list li:first-of-type {
     margin-right: 24px;
 }
 
-.header__menu li:first-of-type a {
+.nav__list li:first-of-type a {
     font-size: 12px;
 }
 
-.header__menu li:last-of-type a {
+.nav__list li:last-of-type a {
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.4px;
@@ -421,7 +421,9 @@ footer .container:nth-of-type(2) .ft_right {
 footer .logo {
     margin-bottom: 20px;
 }
-
+.header_logo{
+    z-index: 99;
+}
 footer .ft_left p {
     font-family: 'poppinsregular', sans-serif;
     font-size: 13px;
